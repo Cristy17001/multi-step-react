@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /*Colors*/
+
+  /*Primary*/
+  --primary-Marine-blue: hsl(213, 96%, 18%);
+  --primary-Purplish-blue: hsl(243, 100%, 62%);
+  --primary-Pastel-blue: hsl(228, 100%, 84%);
+  --primary-Light-blue: hsl(206, 94%, 87%);
+  --primary-Strawberry-red: hsl(354, 84%, 57%);
+
+  /*Neutral*/
+  --neutral-Cool-gray: hsl(231, 11%, 63%);
+  --neutral-Light-gray: hsl(229, 24%, 87%);
+  --neutral-Magnolia: hsl(217, 100%, 97%);
+  --neutral-Alabaster: hsl(231, 100%, 99%);
+  --neutral-White: hsl(0, 0%, 100%);
+
+  /*Typography*/
+
+  /*Body Copy*/
+  --font-size: 1rem;
+
+  /*Font*/
+  --font-familly: 'Ubuntu', sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,34 @@
+.summary {
+    margin-block: 1rem;
+    background: var(--neutral-Magnolia);
+    border-radius: 10px;
+    padding: 1.5rem 1rem;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.main-price, .extras-price  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-price a {
+    font-size: 100%;
+    color: var(--neutral-Cool-gray);
+}
+
+.extras-price > * {margin-bottom: 2%}
+
+hr {
+    color: transparent;
+    margin-block: 5%;
+}
+
+div p > b, .extra-price {color: var(--primary-Marine-blue); font-size: 0.9rem;}
+.total-price p > b {color: var(--primary-Purplish-blue);}
+
+.confirm-btn {background: var(--primary-Purplish-blue) !important;}

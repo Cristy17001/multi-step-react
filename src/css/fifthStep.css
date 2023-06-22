@@ -1,0 +1,20 @@
+.fifthForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.fifthForm h1 {
+    color: var(--primary-Marine-blue);
+}
+
+.fifthForm p {
+    width: 100%;
+}
+
+.formSection .fifthForm img {
+    min-width: 70px;
+    width: 15%;
+}
